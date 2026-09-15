@@ -88,3 +88,9 @@ Ready-to-edit examples are under `examples/`:
 - `build_with_cluster_module.sh MODULE_NAME`: use a cluster-provided stack.
 
 Before publishing, complete [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md).
+
+## License
+
+The build automation in this repository is released under the
+[MIT License](LICENSE). WRF, WPS, compilers, and downloaded dependencies remain
+subject to their respective upstream licenses.
