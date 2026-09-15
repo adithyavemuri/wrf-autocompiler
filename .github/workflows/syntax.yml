@@ -1,0 +1,13 @@
+name: syntax
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  shell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash -n build_wrf.sh quick_build.sh examples/*.sh
+      - run: ./build_wrf.sh --help

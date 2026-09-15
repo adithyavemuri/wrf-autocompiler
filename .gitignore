@@ -1,0 +1,7 @@
+builds/
+downloads/
+sources/
+install/
+logs/
+*.log
+
